@@ -1,0 +1,131 @@
+@import "marquee.css";
+@import "navigationBar.css";
+@import "postView.css";
+@import "post.css";
+@import "aside.css";
+@import "newPost.css";
+@import "loginSignUpLogout.css";
+@import "audio.css";
+@import "about.css";
+
+@font-face {
+    font-family: SeinfeldFont;
+    src: url("files/FeniceStd-Oblique.otf");
+}
+
+body {
+    margin: 0;
+    background-image: url("files/background-with-palms-and-statue.jpg");
+    background-color: dimgrey;
+    background-size: 500px;
+}
+
+header {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header > div {
+    height: 100%;
+    background-image: url("files/see-you-space-cowboy.gif");
+    width:100%;
+}
+
+header h1 {
+    color: yellow;
+    font-weight: 200;
+    font-size: 42pt;
+    font-family: sans-serif;
+    text-shadow: 4px 4px 0 #4AB18E;
+    line-height: 120px;
+    margin: 0px;
+    font-style: italic;
+    height:300px;
+}
+
+section.section {
+    width: calc(100% - 405px);
+    height: 1200px;
+    border-top: 5px dimgrey solid;
+    border-bottom: 5px dimgrey solid;
+    overflow: scroll;
+    float:right;
+}
+
+footer.footer {
+    height: 300px;
+    background-image: url("files/footer-colums-and-bushes.webp");
+    background-size: 300px;
+    position: relative;
+}
+
+.footerContent {
+    position: absolute;
+    top: 50px;
+    left: 300px;
+}
+
+.footerContent > div {
+    font-family: SeinfeldFont, serif;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 22px;
+}
+
+.inputError, .inputSuccess {
+    padding:20px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.inputSuccess {
+    background: rgba(80, 255, 80, 0.8);
+}
+.inputError {
+    background: rgba(255, 80, 80, 0.8);
+}
+
+
+@media screen and (max-width: 1024px){
+    section.section{
+        width: calc(100% - 255px);
+    }
+    @media screen and (max-width: 1024px) {
+        header h1 {
+            font-size: 40px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    section.section{
+        width: 100%;
+        float: none;
+    }
+
+    footer.footer > .footerContent {
+        left: 10px;
+    }
+    .inputError, .inputSuccess {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header h1 {
+        font-size: 16px;
+    }
+}
+
+
+
+

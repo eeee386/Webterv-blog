@@ -1,0 +1,82 @@
+.aside {
+    width: 400px;
+    background-image: url("files/abstract-emotions.webp");
+    height: 1200px;
+    border-right: dimgrey 5px solid;
+    border-top: dimgrey 5px solid;
+    border-bottom: dimgrey 5px solid;
+    position: relative;
+}
+
+.aside img {
+    width: 100%;
+}
+
+.aside img#the-archives-picture-bottom {
+    position: absolute;
+    bottom:0;
+}
+
+.aside h3 {
+    color: yellow;
+    font-weight: bolder;
+    font-size: 32px;
+    text-align: center;
+}
+
+.asideContentWrapper {
+    overflow: scroll;
+    max-height: 675px;
+}
+
+h4.asidePostTitle {
+    background-color: white;
+    opacity: 0.7;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 10px 0 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .aside {
+        width: 250px;
+    }
+
+    .asideContentWrapper {
+        max-height: 962px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .aside {
+        width: 100%;
+        float: none;
+    }
+
+    .asideContentWrapper {
+        max-height: 500px;
+    }
+
+    .aside img {
+        width: 50%;
+        position: relative;
+        left: 25%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .aside {
+        width: 100%;
+        float: none;
+    }
+
+    .asideContentWrapper {
+        max-height: 700px;
+    }
+
+    .aside img {
+        width: 90%;
+        left:5%;
+    }
+}

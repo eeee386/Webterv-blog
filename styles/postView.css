@@ -1,0 +1,46 @@
+.postView {
+    background-color: rgba(64, 224, 208, 0.5);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width:100%;
+    height: 200px;
+}
+
+
+.postView h3, .postContent {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.postView h3 {
+    height: 40px;
+    margin: 0 0 0 10px;
+    position:relative;
+    top: 10px;
+}
+
+.postView .postContent {
+    height: 110px;
+    position:relative;
+    top: 10px;
+}
+
+.postView  .postFooter {
+    height: 20px;
+    margin-top: 20px;
+}
+
+.postImage{
+    height: 100%;
+    float:left;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .postImage {
+        height: 50%;
+    }
+    .postView .postFooter {
+        margin-left: 10px;
+    }
+}

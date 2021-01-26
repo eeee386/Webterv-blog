@@ -1,0 +1,25 @@
+.post {
+    background-color: rgba(64, 224, 208, 0.8);
+    padding: 20px;
+}
+
+.post > .postTitle {
+    text-overflow: ellipsis;
+    margin-top: 0;
+    overflow: hidden;
+}
+
+.commentSection {
+    padding: 10px;
+    background-color: rgba(202, 100, 208, 0.8);
+}
+
+.comment {
+    margin: 20px 0;
+}
+
+.comment, .newCommentForm {
+    padding: 5px;
+    border: turquoise 2px solid;
+    background-color: silver;
+}

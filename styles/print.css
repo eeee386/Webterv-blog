@@ -1,0 +1,102 @@
+body {
+    background-image: none;
+    background-color: white;
+}
+header > div {
+    background-image: none;
+    background-color: white;
+}
+header h1 {
+    color: black;
+}
+footer.footer {
+    margin-top: 50px;
+    background-image: none;
+    background-color: white;
+}
+.footerContent > div {
+    background-image: none;
+    background-color: black;
+}
+
+.aside {
+    display: none;
+}
+
+#myAudio {
+    display: none;
+}
+
+.loginSignupWrapper {
+    background-image: none;
+    color: black;
+}
+
+.navigationBar li > a {
+    background-image: none;
+    background-color: black;
+}
+
+.post {
+    background-color: white;
+}
+.commentSection{
+    background-color: black;
+}
+.comment, .newCommentForm {
+    border-color: dimgrey;
+}
+
+.postView {
+    background-color: white;
+}
+
+.postImage {
+    display: none;
+}
+
+.postView h3, .postContent {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.postView h3 {
+    height: 40px;
+    margin: 0 0 0 10px;
+    position:relative;
+    top: 10px;
+}
+
+.postView .postContent {
+    height: 110px;
+    position:relative;
+    top: 10px;
+}
+
+.postView  .postFooter {
+    height: 20px;
+    margin-top: 20px;
+}
+
+.marquee {
+    position: static;
+}
+
+.marquee div {
+    position: static;
+    overflow: hidden;
+
+    animation: none;
+}
+
+.marquee span {
+    float: none;
+}
+
+.marquee span:nth-child(2){
+    display: none;
+}
+
+.aboutPicture {
+    display: none;
+}

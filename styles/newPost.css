@@ -1,0 +1,29 @@
+.newPostForm {
+    width:290px;
+    height: 480px;
+    background-image: url("files/glitchy-statue.webp");
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin: auto;
+}
+
+.newPostForm label {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newPostForm label > input, textarea {
+    width: 199px;
+}
+
+.newPostForm label > textarea {
+    height: 50px;
+}
+
+.loginMessage {
+    padding: 20px;
+    background-color: turquoise;
+    font-size: 20px;
+    background-color: rgba(64, 224, 208, 0.8);
+}
